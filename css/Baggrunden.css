@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.default{
+    background-color: rgb(37, 37, 37);
+}
+.party{
+    animation: infinite 1s party; 
+ }
+ @keyframes party{
+     10%{background-color: blue;}
+     20%{background-color: greenyellow;}
+     30%{background-color: rgb(21, 177, 52);}
+     40%{background-color: rgb(252, 0, 42);}
+     50%{background-color: rgb(83, 197, 17);}
+     60%{background-color: yellow;}
+     70%{background-color: red;}
+     80%{background-color: purple;}
+     100%{background-color: yellow;}
+ }

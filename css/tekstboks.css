@@ -1,0 +1,32 @@
+#wrapper{
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+button{
+    font-size: xx-large;
+    width: 250px;
+    aspect-ratio: 16 / 3;
+    scale: 2;
+
+    /* udsenet */
+    border-radius: 15px;
+    border: solid black 2px;
+}
+.tekstDefault{
+    color: black;
+}
+.tekst{ 
+    animation: infinite 1s tekst; 
+}
+@keyframes tekst{
+    10%{color: blue; border: greenyellow 5px; transform: scale(1.2);}
+    20%{color: greenyellow; border: rgb(21, 177, 52) 5px;  transform: scale(1);}
+    30%{color: rgb(21, 177, 52); border: rgb(252, 0, 42) 5px; transform: scale(1.2);}
+    40%{color: rgb(252, 0, 42); border: rgb(83, 197, 17) 5px;  transform: scale(1);}
+    50%{color: rgb(83, 197, 17); border: yellow 5px;  transform: scale(1.2);}
+    60%{color: yellow; border: red 5px;  transform: scale(1);}
+    70%{color: red; border: purple 5px;  transform: scale(1.2);}
+    80%{color: purple; border: yellow 5px;  transform: scale(1);}
+    100%{color: yellow; border: blue 5px;  transform: scale(1.2);}
+}
