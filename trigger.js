@@ -6,3 +6,6 @@ function partyMode(){
         tekst.classList.toggle("tekst");
 
 }
+function alert(){
+    alert("do not use if you're prone to seizures")
+}
