@@ -35,8 +35,3 @@ button{
     80%{color: purple; border: yellow 5px;  transform: scale(1);}
     100%{color: yellow; border: blue 5px;  transform: scale(1.2);}
 }
-@media only screen and (max-width: 500px) {
-    button{
-        font-size: 5em
-    }
-}
